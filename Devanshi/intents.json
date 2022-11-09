@@ -1,0 +1,48 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Whats cooking"],
+   "responses": [ "hello thanks for checking in", "hi there, how can i help you"],
+   "context_set": ""
+  },
+  {"tag": "fc1location",
+   "patterns": ["Where is FC1 located?","Which mess is near sp?", "Which mess is closest to the blocks?", "Where is FC1?", "Which mess has ac and is nearest to sp?","How is the food at FC1", "Which mess has Quess?."],
+   "responses": ["FC1 is an air conditioned mess located near the Student plaza and also has Quess. The food quality of this mess is average and it is only preferred due to the location and air-conditioning."],
+   "context_set": ""
+  },
+  {"tag": "apoorvalocation",
+   "patterns": ["Where is Apoorva located?", "Which mess is closest to the blocks?", "Which mess is the most accessible?","Which mess is the most preferred?"],
+   "responses": ["Apoorva is located in between blocks 8 and 7. It is accesible to blocks 14 and 15 as well; making it the most preferred mess as it has Fc2's menu and you can a la carte as well!"],
+   "context_set": ""
+  },
+  {"tag": "goodbye",
+   "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "cya later", "I gotta go now", "I gotta rush now","Bye","Thanks"],
+   "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+   "context_set": ""
+  },
+  {"tag": "fc2menudinner",
+   "patterns": ["What is for dinner in fc2? ", "What is for dinner in apoorva?", "What is for dinner in ashraya?", "Fc2 dinner", "Apoorva dinner", "Ashraya Dinner"],
+   "responses": ["There is Paneer Butter Masala, Aloo Matar and ice cream as today's dinner! If you dont like the dinner you can always call them at 99999999 to order! "],
+   "context_set": ""
+  },
+  {"tag": "fc1dinner",
+   "patterns": ["what is for dinner in Fc1?", "FC1 dinner", "Fc1 dinner menu"],
+   "responses": ["There's Beetroot and Soya masala for dinner in Fc1 today."],
+   "context_set": ""
+  },
+  {"tag": "menu",
+   "patterns": ["Apoorva menu", "Apoorva number", "Order food from apoorva", "Food menu from apoorva", "Contact apoorva","order timings apoorva"],
+   "responses": ["You can view the apoorva menu here -> and call them on 099999999 to order your delicacy! They are open from 12 pm to 11pm!"],
+   "context_set": ""
+  },
+  {"tag": "fc2location",
+   "patterns": ["Where is Fc2", "Which mess is near to boys blocks?", "Where is the Indian Kitchen?", "Which mess has the Indian Kitchen?", "Indian Kitchen location"],
+   "responses": ["Fc2 is located in front of Block 16 and 17, and behind block 15. It is the most accesible to boys' blocks. It's food is managed by the Indian Kitchen."],
+   "context_set": ""
+  },
+  {"tag": "indiankitchenmenu",
+   "patterns": ["Indian Kitchen menu", "Indian Kitchen order number", "Order food from fc2", "Order food from Indian Kitchen", "Contact Indian Kitchen","order timings apoorva","Contact fc2"],
+   "responses": ["You can view the Indian kitchen menu here -> and call them on 099999999 to order your delicacy! They are open from 12 pm to 11pm!"],
+   "context_set": ""
+  }
+]
+}
